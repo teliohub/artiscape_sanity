@@ -3,5 +3,6 @@ import category from './category'
 import post from './post'
 import author from './author'
 import changelog from './changelog'
+import helpPost from './helpPost'
 
-export const schemaTypes = [post, author, category, changelog, blockContent]
+export const schemaTypes = [post, helpPost, author, category, changelog, blockContent]
